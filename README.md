@@ -75,7 +75,7 @@ spring.ai.vectorstore.pgvector.table-name=vector_store
 
 ## Run Frontend 
 ```bash
-cd frontend
+cd rag-frontend
 npm install
 npm run dev
 ```
