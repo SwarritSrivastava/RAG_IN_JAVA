@@ -1,0 +1,25 @@
+.liquid-ether-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: 0;
+  pointer-events: none;
+  overflow: hidden;
+  background: linear-gradient(135deg, #5227FF, #FF9FFC, #B19EEF);
+  background-size: 400% 400%;
+  animation: ether-gradient 12s ease-in-out infinite;
+}
+
+@keyframes ether-gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}

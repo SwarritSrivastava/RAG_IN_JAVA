@@ -1,0 +1,10 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: #f4f4f4;
+}
+
+button {
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+}
